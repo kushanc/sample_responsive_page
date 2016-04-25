@@ -1,0 +1,27 @@
+/*There was a padding in the example, I estimated it to be around
+10% of the screen*/
+
+.navbar{
+  background-color: black;
+  padding: 10px;
+  padding-left: 10%;
+  margin-bottom: 20px;
+}
+
+a:hover:not(.active){
+  color: white;
+}
+
+.HomeTab{
+  font-size: 20px;
+}
+
+/*Add margin for the gallery*/
+.pic-row{
+  margin-left: 10%;
+  margin-right: 10%;
+
+}
+h1{
+  padding-left: 10%;
+}
