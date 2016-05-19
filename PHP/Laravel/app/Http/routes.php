@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//using routing to direct to hospitals page
 Route::get('/hospitals', function(){
-    return view('hospitals');  //resources/views/hospitals.blade.php
-});
+    return view('hospitals');
+  });
+
+//using the Controller
+//Route::get('hospitals', array('uses' => 'patients@index'));

@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+@extends('main.blade.php')
+
 <html>
     <head>
         <title>Laravel</title>
